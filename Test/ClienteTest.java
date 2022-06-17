@@ -5,7 +5,7 @@ class AlunoTest {
        Cliente Cliente = new Cliente();
         assertEquals("A Ouvidoria agradece seu contato.\nA Secretaria respondeu sua demanda conforme mensagem a seguir.\n" +
                 ">>A Secretaria agradece a mensagem: Um Exclente atendimento",
-               Cliente.elogiarSecretaria("Um Exclente atendimento"));
+               Cliente.elogiarLoja("Um Exclente atendimento"));
     }
 
     @Test
